@@ -1,0 +1,79 @@
+scheme: Gemini
+
+darkmode: false
+
+menu:
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+
+menu_settings:
+  icons: true
+  badges: true
+
+sidebar:
+  position: left
+  display: always
+  padding: 18
+  offset: 12
+
+toc:
+  enable: true
+  number: true
+  wrap: true
+  expand_all: false
+  max_depth: 3
+
+avatar:
+  rounded: true
+  rotated: false
+
+social:
+  GitHub: https://github.com/TongTong-Code118 || fab fa-github
+
+social_icons:
+  enable: true
+  icons_only: false
+  transition: false
+
+links_settings:
+  icon: fa fa-globe
+  title: 研究链接
+  layout: block
+
+links:
+  Barra因子研究仓库: https://github.com/TongTong-Code118/a-share-barra-factor-pilot
+
+local_search:
+  enable: true
+  top_n_per_article: 3
+  unescape: false
+  preload: false
+
+back2top:
+  enable: true
+  sidebar: true
+  scrollpercent: true
+
+reading_progress:
+  enable: true
+  color: "#ff6a3d"
+  height: 3px
+
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at:
+    enable: true
+  categories: true
+
+creative_commons:
+  license: by-nc-sa
+  sidebar: false
+  post: true
+  language: deed.zh-hans
+
+custom_file_path:
+  style: source/_data/styles.styl
