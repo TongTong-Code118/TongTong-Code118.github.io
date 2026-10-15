@@ -108,3 +108,9 @@ search:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+markdown:
+  render:
+    html: true
+    breaks: true
+  plugins:
+    - markdown-it-texmath
